@@ -1,0 +1,134 @@
+{
+  "adapter": "mock",
+  "weeks": 8,
+  "field_accuracy_overall": 1.0,
+  "fields_correct": 168,
+  "fields_total": 168,
+  "insight_match_weeks": 8,
+  "flags_correct_weeks": 8,
+  "gate_approve_weeks": 8,
+  "total_error_cases": 0,
+  "seeded_error_test": {
+    "seeded_errors": 3,
+    "caught": 3,
+    "issues": [
+      "signups: memo says 99999 but source data says 436.0",
+      "transactions_change_pct: memo says 42.0 but recomputed value is -3.1",
+      "flags: memo says [] but expected ['RISK_ACCURACY_LOW']"
+    ]
+  },
+  "timing": {
+    "manual_minutes_per_week_estimate": 105,
+    "pipeline_minutes_per_week_measured": 0.0,
+    "review_minutes_per_week_estimate": 10,
+    "saved_minutes_per_week": 95.0,
+    "saved_hours_per_week": 1.58,
+    "saved_hours_per_year_52w": 82.3,
+    "time_reduction_pct": 90.5
+  },
+  "per_week": [
+    {
+      "week": "2026-W01",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.002
+    },
+    {
+      "week": "2026-W02",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.002
+    },
+    {
+      "week": "2026-W03",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.001
+    },
+    {
+      "week": "2026-W04",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.001
+    },
+    {
+      "week": "2026-W05",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.001
+    },
+    {
+      "week": "2026-W06",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.001
+    },
+    {
+      "week": "2026-W07",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.001
+    },
+    {
+      "week": "2026-W08",
+      "field_accuracy": 1.0,
+      "fields_correct": 21,
+      "fields_total": 21,
+      "insight_match": true,
+      "flags_correct": true,
+      "error_cases": [],
+      "gate_decision": "approve",
+      "gate_issues": [],
+      "pipeline_seconds": 0.001
+    }
+  ],
+  "disclosures": {
+    "data": "All data synthetic (seeded generator). No real Uno Wallet data.",
+    "llm": "Demo runs on the deterministic mock adapter. No real LLM was called; no API key exists.",
+    "manual_baseline": "Manual time is an ESTIMATE from a task breakdown, not a measured observation.",
+    "manual_error_rate": "Not measured \u2014 no human did these weeks by hand under observation.",
+    "adoption_log": "Demo-run record only; real founder adoption is unproven and needs 4 weeks of live use."
+  }
+}

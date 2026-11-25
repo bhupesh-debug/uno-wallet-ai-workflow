@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+data/processed/
+data/raw/
+models/*.pkl
+reports/charts/*.png
+.DS_Store
